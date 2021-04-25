@@ -1,0 +1,218 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    background-color: #4240a3;
+}
+
+.wrapper {
+    width: 850px;
+    margin: 0 auto;
+}
+
+.main {
+    height: 469px;
+}
+
+header {
+    color: #fff;
+    padding: 24px 20px 10px;
+    padding-bottom: 10px;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h2 {
+    font-size: 20px;
+    font-weight: 100;
+    font-family: "Krona One", sans-serif;
+    line-height: 1;
+}
+
+header span {
+    color: #e27b7e;
+    font-size: 22px;
+}
+
+.nav-bar {
+    margin-bottom: 15px;
+}
+.nav {
+    list-style: none;
+    display: inline-block;
+    padding-right: 35px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.site-name a {
+    text-decoration: none;
+    color: #fff;
+}
+.main .wrapper {
+    background-image: url(images/third.png);
+    background-position: right bottom;
+    height: 100%;
+    background-size: 366px 470px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.main-content {
+    width: 370px;
+}
+
+.main-content h3 {
+    color: #e8ab52;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.main-content .description {
+    text-transform: capitalize;
+    color: #fffdff;
+    text-shadow: 0 1px 2px rgba(3, 3, 3, 0.5);
+    font-size: 44px;
+    line-height: 1.1;
+    margin-top: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.main-content .sub-description {
+    color: #aea7ea;
+    font-size: 13px;
+    line-height: 1.5;
+    margin-top: 14px;
+}
+
+.main-content span {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.main-button {
+    background-color: #e27b7e;
+    color: #ffe5e2;
+    padding: 10px 38px;
+    margin-top: 16px;
+    border-radius: 1px;
+    font-size: 13px;
+    border: none;
+    outline: none;
+}
+footer {
+    background-color: #f8e6e6;
+}
+
+footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    margin-top: 22px;
+    margin-bottom: 22px;
+    font-size: 18px;
+    color: #26232c;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.brand-box,
+.seo-box,
+.creative-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 0.5px solid #e6d0d2;
+    padding: 56px 20px;
+    width: 33.33%;
+}
+
+.creative-box {
+    border-right: 0;
+}
+
+.brand-box .icon,
+.seo-box .icon,
+.creative-box .icon {
+    color: #e27b7e;
+    font-size: 40px;
+}
+
+.footer-para {
+    font-size: 12px;
+    text-align: center;
+    color: #938f8f;
+    line-height: 1.5;
+}
+
+/* about */
+.about.container {
+    min-height: 90vh;
+    color: #fff;
+}
+
+.about a {
+    text-decoration: none;
+}
+.about .div1 {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    background-color: #f4623a;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.about .div1 .wrapper {
+    width: 50%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about hr {
+    color: #fff;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.about p {
+    margin-bottom: 20px;
+}
+
+.about .btn {
+    margin-bottom: 20px;
+    background-color: #fff;
+    height: 50px;
+    width: 150px;
+    border-radius: 40px;
+    color: #000;
+}
